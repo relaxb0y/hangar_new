@@ -1,0 +1,279 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sasavasilenko/Downloads/Hangar/Hangar/Hangar.csproj": {}
+  },
+  "projects": {
+    "/Users/sasavasilenko/Downloads/Hangar/Hangar.Dao/Hangar.Dao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sasavasilenko/Downloads/Hangar/Hangar.Dao/Hangar.Dao.csproj",
+        "projectName": "Hangar.Dao",
+        "projectPath": "/Users/sasavasilenko/Downloads/Hangar/Hangar.Dao/Hangar.Dao.csproj",
+        "packagesPath": "/Users/sasavasilenko/.nuget/packages/",
+        "outputPath": "/Users/sasavasilenko/Downloads/Hangar/Hangar.Dao/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sasavasilenko/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/sasavasilenko/Downloads/Hangar/Hangar.Models/Hangar.Models.csproj": {
+                "projectPath": "/Users/sasavasilenko/Downloads/Hangar/Hangar.Models/Hangar.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sasavasilenko/Downloads/Hangar/Hangar.Models/Hangar.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sasavasilenko/Downloads/Hangar/Hangar.Models/Hangar.Models.csproj",
+        "projectName": "Hangar.Models",
+        "projectPath": "/Users/sasavasilenko/Downloads/Hangar/Hangar.Models/Hangar.Models.csproj",
+        "packagesPath": "/Users/sasavasilenko/.nuget/packages/",
+        "outputPath": "/Users/sasavasilenko/Downloads/Hangar/Hangar.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sasavasilenko/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sasavasilenko/Downloads/Hangar/Hangar.Orchestrators/Hangar.Orchestrators.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sasavasilenko/Downloads/Hangar/Hangar.Orchestrators/Hangar.Orchestrators.csproj",
+        "projectName": "Hangar.Orchestrators",
+        "projectPath": "/Users/sasavasilenko/Downloads/Hangar/Hangar.Orchestrators/Hangar.Orchestrators.csproj",
+        "packagesPath": "/Users/sasavasilenko/.nuget/packages/",
+        "outputPath": "/Users/sasavasilenko/Downloads/Hangar/Hangar.Orchestrators/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sasavasilenko/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/sasavasilenko/Downloads/Hangar/Hangar.Models/Hangar.Models.csproj": {
+                "projectPath": "/Users/sasavasilenko/Downloads/Hangar/Hangar.Models/Hangar.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sasavasilenko/Downloads/Hangar/Hangar/Hangar.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sasavasilenko/Downloads/Hangar/Hangar/Hangar.csproj",
+        "projectName": "Hangar",
+        "projectPath": "/Users/sasavasilenko/Downloads/Hangar/Hangar/Hangar.csproj",
+        "packagesPath": "/Users/sasavasilenko/.nuget/packages/",
+        "outputPath": "/Users/sasavasilenko/Downloads/Hangar/Hangar/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sasavasilenko/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/sasavasilenko/Downloads/Hangar/Hangar.Dao/Hangar.Dao.csproj": {
+                "projectPath": "/Users/sasavasilenko/Downloads/Hangar/Hangar.Dao/Hangar.Dao.csproj"
+              },
+              "/Users/sasavasilenko/Downloads/Hangar/Hangar.Models/Hangar.Models.csproj": {
+                "projectPath": "/Users/sasavasilenko/Downloads/Hangar/Hangar.Models/Hangar.Models.csproj"
+              },
+              "/Users/sasavasilenko/Downloads/Hangar/Hangar.Orchestrators/Hangar.Orchestrators.csproj": {
+                "projectPath": "/Users/sasavasilenko/Downloads/Hangar/Hangar.Orchestrators/Hangar.Orchestrators.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
